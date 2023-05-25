@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author brayan majin, julian ruano
+ * @author brayan majin, freider escobar
  */
 public class OMInvoker {
     
