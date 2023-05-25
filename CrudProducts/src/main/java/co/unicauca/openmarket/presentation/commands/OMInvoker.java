@@ -18,9 +18,12 @@ public class OMInvoker {
     private OMCommand currentCommand;
     
     public OMInvoker(){
-        myCommands = new ArrayList<>();
+      
+             myCommands = new ArrayList<>();
         deleteCommands = new ArrayList<>();
         currentCommand=null;
+        
+       
     }
     
     public void addCommand(OMCommand actualCommand){

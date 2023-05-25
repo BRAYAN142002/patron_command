@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest
+testUnexecute_ExecuteCommandAndUnexecuteCommand  Time elapsed: 0.049 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.unicauca.openmarket.presentation.commands.OMInvoker.addCommand(co.unicauca.openmarket.presentation.commands.OMCommand)" because "this.invoker" is null
+	at co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest.testUnexecute_ExecuteCommandAndUnexecuteCommand(OMInvokerTest.java:47)
+
+testReExecuted_UnexecuteCommandAndReexecuteCommand  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.unicauca.openmarket.presentation.commands.OMInvoker.addCommand(co.unicauca.openmarket.presentation.commands.OMCommand)" because "this.invoker" is null
+	at co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest.testReExecuted_UnexecuteCommandAndReexecuteCommand(OMInvokerTest.java:58)
+
+testAddProductCommand_UnexecuteAddProductCommand  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.unicauca.openmarket.domain.Product.getProductId()" because "this.product" is null
+	at co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest.testAddProductCommand_UnexecuteAddProductCommand(OMInvokerTest.java:87)
+
+testExecute_AddCommandAndExecuteCommand  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.unicauca.openmarket.presentation.commands.OMInvoker.addCommand(co.unicauca.openmarket.presentation.commands.OMCommand)" because "this.invoker" is null
+	at co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest.testExecute_AddCommandAndExecuteCommand(OMInvokerTest.java:37)
+
+testAddProductCommand_ExecuteAddProductCommand  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "co.unicauca.openmarket.domain.Product.getProductId()" because "this.product" is null
+	at co.unicauca.openmarket.domain.service.co.unicauca.openmarket.presentation.commands.OMInvokerTest.testAddProductCommand_ExecuteAddProductCommand(OMInvokerTest.java:70)
+
